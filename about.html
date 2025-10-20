@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jessie's Personal Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <h2>Interested? Reach Out</h2>
+       <h3>Fill out the form</h3>
+       <div id="contact-form">
+            <form action="">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname">
+                <br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname">
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" id="email">
+                <button type="submit">Submit</button>
+            </form>
+       </div>
+    </main>
+    <footer>
+        <p>Created By Jessie for your viewing <i>pleasure</i> :&rpar;</p>
+    </footer>
+    <hello-world></hello-world>
+    <script>
+        const customTag = document.getElementsByTagName("hello-world");
+        if(customTag.length > 0) {
+            console.log("Hello world!");
+        }
+    </script>
+</body>
+</html>
